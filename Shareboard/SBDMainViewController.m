@@ -9,7 +9,7 @@
 #import "SBDMainViewController.h"
 #import "SBDCameraViewController.h"
 
-@interface SBDMainViewController ()
+@interface SBDMainViewController() <SBDCameraViewControllerDelegate>
 
 @end
 
@@ -28,7 +28,13 @@
 - (IBAction)snapPressed:(id)sender {
   NSLog(@"Pressed");
   SBDCameraViewController *cameraController = [[SBDCameraViewController alloc] initWithNibName:@"SBDCameraView_iPad" bundle:nil];
+  cameraController.delegate = self;
   [self presentViewController:cameraController animated:YES completion:nil];
+}
+
+// SBDCameraViewControllerDelegate
+- (void)imageCaptured:(UIImage *)image {
+  NSLog(@"Captured");
 }
 
 @end

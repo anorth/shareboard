@@ -7,11 +7,15 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SBDCameraViewController : UIViewController {
+@protocol SBDCameraViewControllerDelegate
 
-}
+- (void)imageCaptured:(UIImage *)image;
 
-@property (weak, nonatomic) IBOutlet UIView *preview;
+@end
+
+@interface SBDCameraViewController : UIViewController
+
+@property id<SBDCameraViewControllerDelegate> delegate;
 
 - (IBAction)cancelCapture:(id)sender;
 - (IBAction)capture:(id)sender;

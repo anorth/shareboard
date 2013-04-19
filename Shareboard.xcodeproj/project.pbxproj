@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2DBA15361DD49DB8D7F0FB9C /* SBDCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1576FA3B8A432599CBB3 /* SBDCameraViewController.m */; };
+		2DBA16727C61E57EC9EF7802 /* HFImageEditor_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DBA1B3686129380CFC00332 /* HFImageEditor_iPhone.xib */; };
 		2DBA17442738EC2B8DF7CD9B /* HFImageEditorFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1958329D9817A880784D /* HFImageEditorFrameView.m */; };
 		2DBA187D52DA2A81CA6A87A7 /* HFImageEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1B32B69575E766F47427 /* HFImageEditorViewController.m */; };
 		2DBA1962921ACE7483865EB5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBA15E17A0C84B89BCF4C74 /* AVFoundation.framework */; };
 		2DBA1D827D3484CF7B5D48BD /* SBDCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA10F31A80EBC7413C75F5 /* SBDCropViewController.m */; };
+		FA86DC8F17211B6600E4E3AF /* SBDCameraView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA86DC8E17211B6600E4E3AF /* SBDCameraView_iPhone.xib */; };
 		FAF31BED1720CE550058CC47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF31BEC1720CE550058CC47 /* UIKit.framework */; };
 		FAF31BEF1720CE550058CC47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF31BEE1720CE550058CC47 /* Foundation.framework */; };
 		FAF31BF11720CE550058CC47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF31BF01720CE550058CC47 /* CoreGraphics.framework */; };
@@ -36,9 +38,11 @@
 		2DBA17E460A99C8F8F5220B2 /* HFImageEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFImageEditorViewController.h; sourceTree = "<group>"; };
 		2DBA1958329D9817A880784D /* HFImageEditorFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFImageEditorFrameView.m; sourceTree = "<group>"; };
 		2DBA1B32B69575E766F47427 /* HFImageEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFImageEditorViewController.m; sourceTree = "<group>"; };
+		2DBA1B3686129380CFC00332 /* HFImageEditor_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HFImageEditor_iPhone.xib; sourceTree = "<group>"; };
 		2DBA1CD36BD3966E0655E5B1 /* SBDCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDCameraViewController.h; sourceTree = "<group>"; };
 		2DBA1DD3468048BE91E8A5CD /* HFImageEditorFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFImageEditorFrameView.h; sourceTree = "<group>"; };
 		2DBA1EF4A82E82FF68984712 /* SBDCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDCropViewController.h; sourceTree = "<group>"; };
+		FA86DC8E17211B6600E4E3AF /* SBDCameraView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBDCameraView_iPhone.xib; sourceTree = "<group>"; };
 		FAF31BE91720CE550058CC47 /* Shareboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shareboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF31BEC1720CE550058CC47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FAF31BEE1720CE550058CC47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -83,6 +87,7 @@
 				2DBA17E460A99C8F8F5220B2 /* HFImageEditorViewController.h */,
 				2DBA1B32B69575E766F47427 /* HFImageEditorViewController.m */,
 				2DBA17BC14FAF4FEE2046FCB /* HFImageEditorViewController+SubclassingHooks.h */,
+				2DBA1B3686129380CFC00332 /* HFImageEditor_iPhone.xib */,
 			);
 			path = ImageEditor;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 				FAF31C071720CE550058CC47 /* SBDMainViewController_iPhone.xib */,
 				FAF31C0A1720CE550058CC47 /* SBDMainViewController_iPad.xib */,
 				FAF31C121720D3B10058CC47 /* SBDCameraView_iPad.xib */,
+				FA86DC8E17211B6600E4E3AF /* SBDCameraView_iPhone.xib */,
 				FAF31C161720FAA80058CC47 /* SBDCropView_iPad.xib */,
 				FAF31BF31720CE550058CC47 /* Supporting Files */,
 				2DBA1576FA3B8A432599CBB3 /* SBDCameraViewController.m */,
@@ -210,6 +216,8 @@
 				FAF31C0C1720CE550058CC47 /* SBDMainViewController_iPad.xib in Resources */,
 				FAF31C131720D3B10058CC47 /* SBDCameraView_iPad.xib in Resources */,
 				FAF31C171720FAA80058CC47 /* SBDCropView_iPad.xib in Resources */,
+				2DBA16727C61E57EC9EF7802 /* HFImageEditor_iPhone.xib in Resources */,
+				FA86DC8F17211B6600E4E3AF /* SBDCameraView_iPhone.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +334,7 @@
 				INFOPLIST_FILE = "Shareboard/Shareboard-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -338,6 +347,7 @@
 				INFOPLIST_FILE = "Shareboard/Shareboard-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -9,6 +9,13 @@
 
 #import "SBDCameraViewController.h"
 #import "SBDCropViewController.h"
+#import "HFImageEditorViewController.h"
+
+@interface SBDCameraViewController()
+
+@property (weak, nonatomic) IBOutlet UIView *preview;
+
+@end
 
 @implementation SBDCameraViewController {
   AVCaptureDeviceInput *captureInput;
@@ -83,8 +90,23 @@
   AVCaptureConnection *connection = [captureOutput connectionWithMediaType:AVMediaTypeVideo];
   [captureOutput captureStillImageAsynchronouslyFromConnection:connection completionHandler:^(CMSampleBufferRef imageDataSampleBuffer, NSError *error) {
     NSData *jpgData = [AVCaptureStillImageOutput jpegStillImageNSDataRepresentation:imageDataSampleBuffer];
-    SBDCropViewController *cropViewController = [[SBDCropViewController alloc] initWithImage:jpgData];
-    [self presentViewController:cropViewController animated:NO completion:nil];
+//    SBDCropViewController *cropViewController = [[SBDCropViewController alloc] initWithImage:jpgData];
+//    [self presentViewController:cropViewController animated:NO completion:nil];
+    HFImageEditorViewController *cropViewController = [[HFImageEditorViewController alloc] initWithNibName:@"HFImageEditor" bundle:nil];
+    UIImage *image = [UIImage imageWithData:jpgData];
+    cropViewController.sourceImage = image;
+    [self presentViewController:cropViewController animated:NO completion:nil]; // Flip view?
+
+    cropViewController.doneCallback = ^(UIImage *image, BOOL canceled) {
+      if (!canceled && self.delegate) {
+        [self.delegate imageCaptured:image];
+        [cropViewController dismissViewControllerAnimated:NO completion:^{
+          [self dismissViewControllerAnimated:YES completion:nil];
+        }];
+      } else {
+        [cropViewController dismissViewControllerAnimated:NO completion:nil];
+      }
+    };
   }];
 }
 

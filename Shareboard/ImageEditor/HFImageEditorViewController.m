@@ -67,21 +67,6 @@ static const NSTimeInterval kAnimationIntervalTransform = 0.2;
     return self;
 }
 
-- (void) dealloc
-{
-
-    [_imageView release];
-    [_frameView release];
-    [_doneCallback release];
-    [_sourceImage release];
-    [_previewImage release];
-    [_panRecognizer release];
-    [_rotationRecognizer release];
-    [_pinchRecognizer release];
-    [_tapRecognizer release];
-    [super dealloc];
-}
-
 #pragma mark Properties
 
 - (void)setCropSize:(CGSize)cropSize
@@ -109,9 +94,9 @@ static const NSTimeInterval kAnimationIntervalTransform = 0.2;
             } else { // landscape
                 size = CGSizeMake(kPreviewImageSize,kPreviewImageSize*aspect);
             }
-            _previewImage = [[self scaledImage:self.sourceImage  toSize:size withQuality:kCGInterpolationLow] retain];
+            _previewImage = [self scaledImage:self.sourceImage  toSize:size withQuality:kCGInterpolationLow];
         } else {
-            _previewImage = [_sourceImage retain];
+            _previewImage = _sourceImage;
         }
     }
     return  _previewImage;
@@ -120,8 +105,7 @@ static const NSTimeInterval kAnimationIntervalTransform = 0.2;
 - (void)setSourceImage:(UIImage *)sourceImage
 {
     if(sourceImage != _sourceImage) {
-        [_sourceImage release];
-        _sourceImage = [sourceImage retain];
+        _sourceImage = sourceImage;
         self.previewImage = nil;
     }
 }
@@ -209,8 +193,7 @@ static const NSTimeInterval kAnimationIntervalTransform = 0.2;
     UIImageView *imageView = [[UIImageView alloc] init];
     [self.view insertSubview:imageView belowSubview:self.frameView];
     self.imageView = imageView;
-    [imageView release];
-    
+
     [self.view setMultipleTouchEnabled:YES];
 
     self.panRecognizer.cancelsTouchesInView = NO;

@@ -2,48 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8508e3e-5926-40cc-905f-59d75c81170f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorFrameView.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorFrameView.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController+SubclassingHooks.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/SBDCameraViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/SBDCameraViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/SBDCameraView_iPad.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/SBDCropViewController.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/SBDCropViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/SBDCropView_iPad.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/SBDMainViewController.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/en.lproj/SBDMainViewController_iPad.xib" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Shareboard.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/xcode.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Shareboard/SBDViewController.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Shareboard/en.lproj/SBDViewController_iPad.xib" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Shareboard/SBDViewController.h" afterPath="$PROJECT_DIR$/Shareboard/SBDMainViewController.h" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Shareboard/en.lproj/SBDViewController_iPhone.xib" afterPath="$PROJECT_DIR$/Shareboard/en.lproj/SBDMainViewController_iPhone.xib" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/SBDAppDelegate.h" afterPath="$PROJECT_DIR$/Shareboard/SBDAppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditor_iPhone.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shareboard/SBDCameraView_iPhone.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorFrameView.m" afterPath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorFrameView.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController.m" afterPath="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController.m" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/SBDAppDelegate.m" afterPath="$PROJECT_DIR$/Shareboard/SBDAppDelegate.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/Shareboard-Info.plist" afterPath="$PROJECT_DIR$/Shareboard/Shareboard-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/SBDCameraViewController.h" afterPath="$PROJECT_DIR$/Shareboard/SBDCameraViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/SBDCameraViewController.m" afterPath="$PROJECT_DIR$/Shareboard/SBDCameraViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/SBDCameraView_iPad.xib" afterPath="$PROJECT_DIR$/Shareboard/SBDCameraView_iPad.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/SBDCropView_iPad.xib" afterPath="$PROJECT_DIR$/Shareboard/SBDCropView_iPad.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/SBDMainViewController.m" afterPath="$PROJECT_DIR$/Shareboard/SBDMainViewController.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/en.lproj/SBDMainViewController_iPad.xib" afterPath="$PROJECT_DIR$/Shareboard/en.lproj/SBDMainViewController_iPad.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard/en.lproj/SBDMainViewController_iPhone.xib" afterPath="$PROJECT_DIR$/Shareboard/en.lproj/SBDMainViewController_iPhone.xib" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Shareboard.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Shareboard.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Shareboard.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366333599954" ignored="false" />
-    <file path="/a.mm" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366334269403" ignored="false" />
-    <file path="/SBDMainViewController.m" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366338901888" ignored="false" />
-    <file path="/SBDCameraViewController.h" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366336218003" ignored="false" />
-    <file path="/SBDCameraViewController.m" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366346760923" ignored="false" />
-    <file path="/SBDAppDelegate.m" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366344364873" ignored="false" />
+    <file path="/Dummy.txt" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366355656285" ignored="false" />
+    <file path="/a.mm" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366354509293" ignored="false" />
+    <file path="/SBDMainViewController.m" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366354778283" ignored="false" />
+    <file path="/SBDCameraViewController.h" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366354743886" ignored="false" />
+    <file path="/SBDCameraViewController.m" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366355185992" ignored="false" />
+    <file path="/SBDAppDelegate.m" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366352401050" ignored="false" />
     <file path="/SBDCropViewController.h" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366346151374" ignored="false" />
-    <file path="/SBDCropViewController.m" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366346980842" ignored="false" />
+    <file path="/SBDCropViewController.m" changelist="a8508e3e-5926-40cc-905f-59d75c81170f" time="1366351067455" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,31 +46,13 @@
     <favorites_list name="Shareboard" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47881356">
+    <splitter split-orientation="horizontal" split-proportion="0.47881353">
       <split-first>
         <leaf>
           <file leaf-file-name="main.m" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Shareboard/main.m">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SBDCropViewController.m" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Shareboard/SBDCropViewController.m">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="23" column="8" selection-start="442" selection-end="442" vertical-scroll-proportion="0.35825545">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="SBDAppDelegate.m" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Shareboard/SBDAppDelegate.m">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="9" column="4" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+                <state line="18" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -95,21 +61,26 @@
           <file leaf-file-name="SBDMainViewController.m" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Shareboard/SBDMainViewController.m">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="30" column="59" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#132#165#0" expanded="true" />
-                  </folding>
+                <state line="37" column="1" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SBDCameraViewController.m" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="SBDAppDelegate.m" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Shareboard/SBDAppDelegate.m">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="39" column="28" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SBDCameraViewController.m" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Shareboard/SBDCameraViewController.m">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="65" column="16" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.0">
-                  <folding>
-                    <element signature="e#113#150#0" expanded="true" />
-                  </folding>
+                <state line="77" column="3" selection-start="2327" selection-end="2327" vertical-scroll-proportion="0.5175097">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -118,15 +89,6 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="SBDCameraViewController.h" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Shareboard/SBDCameraViewController.h">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="15" column="4" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="SBDMainViewController.h" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Shareboard/SBDMainViewController.h">
               <provider selected="true" editor-type-id="text-editor">
@@ -136,10 +98,37 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SBDCropViewController.h" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="SBDCameraViewController.h" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Shareboard/SBDCameraViewController.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="22" column="4" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HFImageEditorViewController.m" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController.m">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="32" column="18" selection-start="1252" selection-end="1258" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="HFImageEditorViewController.h" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController.h">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="9" column="28" selection-start="181" selection-end="181" vertical-scroll-proportion="0.110939905">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="SBDCropViewController.h" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Shareboard/SBDCropViewController.h">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="22" column="4" selection-start="375" selection-end="375" vertical-scroll-proportion="0.3426791">
+                <state line="22" column="4" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -166,19 +155,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/Shareboard/SBDMainViewController.h" />
+        <option value="$PROJECT_DIR$/Shareboard/SBDCropViewController.h" />
+        <option value="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorFrameView.m" />
+        <option value="$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController.m" />
+        <option value="$PROJECT_DIR$/Shareboard/SBDCropViewController.m" />
+        <option value="$PROJECT_DIR$/Shareboard/SBDAppDelegate.m" />
         <option value="$PROJECT_DIR$/Shareboard/SBDCameraViewController.h" />
         <option value="$PROJECT_DIR$/Shareboard/SBDMainViewController.m" />
-        <option value="$PROJECT_DIR$/Shareboard/SBDAppDelegate.m" />
-        <option value="$PROJECT_DIR$/Shareboard/SBDCropViewController.h" />
         <option value="$PROJECT_DIR$/Shareboard/SBDCameraViewController.m" />
-        <option value="$PROJECT_DIR$/Shareboard/SBDCropViewController.m" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="2540" />
-    <option name="height" value="1400" />
+    <option name="width" value="2516" />
+    <option name="height" value="1418" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -206,7 +197,6 @@
       <sortByType ProjectPane="false" />
     </navigator>
     <panes>
-      <pane id="DirectoryView.Xcode" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -220,6 +210,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Shareboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ImageEditor" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -249,16 +257,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="DirectoryView.Xcode" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Objective-C" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="FullScreen" value="false" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Shareboard" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Shareboard">
     <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PROJECT_NAME="Shareboard" TARGET_NAME="Shareboard" CONFIG_NAME="Debug" PASS_PARENT_ENVS="FALSE" RUN_TARGET_PROJECT_NAME="Shareboard" RUN_TARGET_NAME="Shareboard" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
@@ -322,26 +331,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2540" height="1400" extended-state="0" />
+    <frame x="0" y="22" width="2516" height="1418" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24990067" sideWeight="0.7588055" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24990067" sideWeight="0.7588055" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19253911" sideWeight="0.7590634" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39969373" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24119449" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24093656" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32401812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -407,11 +416,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureOutput.h">
+    <entry file="file://$PROJECT_DIR$/Shareboard/SBDMainViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shareboard/SBDCameraViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AVFoundation.framework/Headers/AVCaptureOutput.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shareboard/SBDMainViewController.h">
@@ -421,55 +442,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shareboard/SBDCameraViewController.h">
+    <entry file="file://$PROJECT_DIR$/Shareboard/SBDMainViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="4" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0">
+        <state line="37" column="1" selection-start="969" selection-end="969" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shareboard/SBDAppDelegate.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="4" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
+        <state line="39" column="28" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shareboard/SBDCropViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="350" selection-end="350" vertical-scroll-proportion="0.29477993">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shareboard/main.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController+SubclassingHooks.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorFrameView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="1" selection-start="946" selection-end="946" vertical-scroll-proportion="0.3971341">
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#207#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorFrameView.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shareboard/SBDCropViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="4" selection-start="375" selection-end="375" vertical-scroll-proportion="0.3426791">
+        <state line="22" column="4" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shareboard/SBDMainViewController.m">
+    <entry file="file://$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="59" selection-start="780" selection-end="780" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#132#165#0" expanded="true" />
-          </folding>
+        <state line="32" column="18" selection-start="1252" selection-end="1258" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shareboard/main.m">
+    <entry file="file://$PROJECT_DIR$/Shareboard/SBDCameraViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0">
+        <state line="22" column="4" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shareboard/SBDCameraViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="16" selection-start="2056" selection-end="2056" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#113#150#0" expanded="true" />
-          </folding>
+        <state line="77" column="3" selection-start="2327" selection-end="2327" vertical-scroll-proportion="0.5175097">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shareboard/SBDCropViewController.m">
+    <entry file="file://$PROJECT_DIR$/Shareboard/ImageEditor/HFImageEditorViewController.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="442" selection-end="442" vertical-scroll-proportion="0.35825545">
+        <state line="9" column="28" selection-start="181" selection-end="181" vertical-scroll-proportion="0.110939905">
           <folding />
         </state>
       </provider>
