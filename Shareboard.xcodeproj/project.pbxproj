@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2DBA15361DD49DB8D7F0FB9C /* SBDCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1576FA3B8A432599CBB3 /* SBDCameraViewController.m */; };
+		2DBA17442738EC2B8DF7CD9B /* HFImageEditorFrameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1958329D9817A880784D /* HFImageEditorFrameView.m */; };
+		2DBA187D52DA2A81CA6A87A7 /* HFImageEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1B32B69575E766F47427 /* HFImageEditorViewController.m */; };
+		2DBA1962921ACE7483865EB5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBA15E17A0C84B89BCF4C74 /* AVFoundation.framework */; };
+		2DBA1D827D3484CF7B5D48BD /* SBDCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA10F31A80EBC7413C75F5 /* SBDCropViewController.m */; };
+		FAF31BED1720CE550058CC47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF31BEC1720CE550058CC47 /* UIKit.framework */; };
+		FAF31BEF1720CE550058CC47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF31BEE1720CE550058CC47 /* Foundation.framework */; };
+		FAF31BF11720CE550058CC47 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF31BF01720CE550058CC47 /* CoreGraphics.framework */; };
+		FAF31BF71720CE550058CC47 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAF31BF51720CE550058CC47 /* InfoPlist.strings */; };
+		FAF31BF91720CE550058CC47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF31BF81720CE550058CC47 /* main.m */; };
+		FAF31BFD1720CE550058CC47 /* SBDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF31BFC1720CE550058CC47 /* SBDAppDelegate.m */; };
+		FAF31BFF1720CE550058CC47 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF31BFE1720CE550058CC47 /* Default.png */; };
+		FAF31C011720CE550058CC47 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF31C001720CE550058CC47 /* Default@2x.png */; };
+		FAF31C031720CE550058CC47 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF31C021720CE550058CC47 /* Default-568h@2x.png */; };
+		FAF31C061720CE550058CC47 /* SBDMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF31C051720CE550058CC47 /* SBDMainViewController.m */; };
+		FAF31C091720CE550058CC47 /* SBDMainViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF31C071720CE550058CC47 /* SBDMainViewController_iPhone.xib */; };
+		FAF31C0C1720CE550058CC47 /* SBDMainViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF31C0A1720CE550058CC47 /* SBDMainViewController_iPad.xib */; };
+		FAF31C131720D3B10058CC47 /* SBDCameraView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF31C121720D3B10058CC47 /* SBDCameraView_iPad.xib */; };
+		FAF31C171720FAA80058CC47 /* SBDCropView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF31C161720FAA80058CC47 /* SBDCropView_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2DBA10F31A80EBC7413C75F5 /* SBDCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDCropViewController.m; sourceTree = "<group>"; };
+		2DBA1576FA3B8A432599CBB3 /* SBDCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDCameraViewController.m; sourceTree = "<group>"; };
+		2DBA15E17A0C84B89BCF4C74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2DBA17BC14FAF4FEE2046FCB /* HFImageEditorViewController+SubclassingHooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFImageEditorViewController+SubclassingHooks.h"; sourceTree = "<group>"; };
+		2DBA17E460A99C8F8F5220B2 /* HFImageEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFImageEditorViewController.h; sourceTree = "<group>"; };
+		2DBA1958329D9817A880784D /* HFImageEditorFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFImageEditorFrameView.m; sourceTree = "<group>"; };
+		2DBA1B32B69575E766F47427 /* HFImageEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFImageEditorViewController.m; sourceTree = "<group>"; };
+		2DBA1CD36BD3966E0655E5B1 /* SBDCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDCameraViewController.h; sourceTree = "<group>"; };
+		2DBA1DD3468048BE91E8A5CD /* HFImageEditorFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFImageEditorFrameView.h; sourceTree = "<group>"; };
+		2DBA1EF4A82E82FF68984712 /* SBDCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDCropViewController.h; sourceTree = "<group>"; };
+		FAF31BE91720CE550058CC47 /* Shareboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shareboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF31BEC1720CE550058CC47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAF31BEE1720CE550058CC47 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAF31BF01720CE550058CC47 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAF31BF41720CE550058CC47 /* Shareboard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shareboard-Info.plist"; sourceTree = "<group>"; };
+		FAF31BF61720CE550058CC47 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAF31BF81720CE550058CC47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF31BFA1720CE550058CC47 /* Shareboard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shareboard-Prefix.pch"; sourceTree = "<group>"; };
+		FAF31BFB1720CE550058CC47 /* SBDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBDAppDelegate.h; sourceTree = "<group>"; };
+		FAF31BFC1720CE550058CC47 /* SBDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBDAppDelegate.m; sourceTree = "<group>"; };
+		FAF31BFE1720CE550058CC47 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FAF31C001720CE550058CC47 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FAF31C021720CE550058CC47 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FAF31C041720CE550058CC47 /* SBDMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBDMainViewController.h; sourceTree = "<group>"; };
+		FAF31C051720CE550058CC47 /* SBDMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBDMainViewController.m; sourceTree = "<group>"; };
+		FAF31C081720CE550058CC47 /* SBDMainViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SBDMainViewController_iPhone.xib; path = en.lproj/SBDMainViewController_iPhone.xib; sourceTree = "<group>"; };
+		FAF31C0B1720CE550058CC47 /* SBDMainViewController_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SBDMainViewController_iPad.xib; path = en.lproj/SBDMainViewController_iPad.xib; sourceTree = "<group>"; };
+		FAF31C121720D3B10058CC47 /* SBDCameraView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBDCameraView_iPad.xib; sourceTree = "<group>"; };
+		FAF31C161720FAA80058CC47 /* SBDCropView_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBDCropView_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF31BE61720CE550058CC47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF31BED1720CE550058CC47 /* UIKit.framework in Frameworks */,
+				FAF31BEF1720CE550058CC47 /* Foundation.framework in Frameworks */,
+				FAF31BF11720CE550058CC47 /* CoreGraphics.framework in Frameworks */,
+				2DBA1962921ACE7483865EB5 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DBA1019A8198A9DFBCC765A /* ImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA1DD3468048BE91E8A5CD /* HFImageEditorFrameView.h */,
+				2DBA1958329D9817A880784D /* HFImageEditorFrameView.m */,
+				2DBA17E460A99C8F8F5220B2 /* HFImageEditorViewController.h */,
+				2DBA1B32B69575E766F47427 /* HFImageEditorViewController.m */,
+				2DBA17BC14FAF4FEE2046FCB /* HFImageEditorViewController+SubclassingHooks.h */,
+			);
+			path = ImageEditor;
+			sourceTree = "<group>";
+		};
+		FAF31BE01720CE550058CC47 = {
+			isa = PBXGroup;
+			children = (
+				FAF31BF21720CE550058CC47 /* Shareboard */,
+				FAF31BEB1720CE550058CC47 /* Frameworks */,
+				FAF31BEA1720CE550058CC47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF31BEA1720CE550058CC47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF31BE91720CE550058CC47 /* Shareboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF31BEB1720CE550058CC47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAF31BEC1720CE550058CC47 /* UIKit.framework */,
+				FAF31BEE1720CE550058CC47 /* Foundation.framework */,
+				FAF31BF01720CE550058CC47 /* CoreGraphics.framework */,
+				2DBA15E17A0C84B89BCF4C74 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAF31BF21720CE550058CC47 /* Shareboard */ = {
+			isa = PBXGroup;
+			children = (
+				FAF31BFB1720CE550058CC47 /* SBDAppDelegate.h */,
+				FAF31BFC1720CE550058CC47 /* SBDAppDelegate.m */,
+				FAF31C041720CE550058CC47 /* SBDMainViewController.h */,
+				FAF31C051720CE550058CC47 /* SBDMainViewController.m */,
+				FAF31C071720CE550058CC47 /* SBDMainViewController_iPhone.xib */,
+				FAF31C0A1720CE550058CC47 /* SBDMainViewController_iPad.xib */,
+				FAF31C121720D3B10058CC47 /* SBDCameraView_iPad.xib */,
+				FAF31C161720FAA80058CC47 /* SBDCropView_iPad.xib */,
+				FAF31BF31720CE550058CC47 /* Supporting Files */,
+				2DBA1576FA3B8A432599CBB3 /* SBDCameraViewController.m */,
+				2DBA1CD36BD3966E0655E5B1 /* SBDCameraViewController.h */,
+				2DBA10F31A80EBC7413C75F5 /* SBDCropViewController.m */,
+				2DBA1EF4A82E82FF68984712 /* SBDCropViewController.h */,
+				2DBA1019A8198A9DFBCC765A /* ImageEditor */,
+			);
+			path = Shareboard;
+			sourceTree = "<group>";
+		};
+		FAF31BF31720CE550058CC47 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF31BF41720CE550058CC47 /* Shareboard-Info.plist */,
+				FAF31BF51720CE550058CC47 /* InfoPlist.strings */,
+				FAF31BF81720CE550058CC47 /* main.m */,
+				FAF31BFA1720CE550058CC47 /* Shareboard-Prefix.pch */,
+				FAF31BFE1720CE550058CC47 /* Default.png */,
+				FAF31C001720CE550058CC47 /* Default@2x.png */,
+				FAF31C021720CE550058CC47 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF31BE81720CE550058CC47 /* Shareboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF31C0F1720CE550058CC47 /* Build configuration list for PBXNativeTarget "Shareboard" */;
+			buildPhases = (
+				FAF31BE51720CE550058CC47 /* Sources */,
+				FAF31BE61720CE550058CC47 /* Frameworks */,
+				FAF31BE71720CE550058CC47 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shareboard;
+			productName = Shareboard;
+			productReference = FAF31BE91720CE550058CC47 /* Shareboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF31BE11720CE550058CC47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SBD;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Alex;
+			};
+			buildConfigurationList = FAF31BE41720CE550058CC47 /* Build configuration list for PBXProject "Shareboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAF31BE01720CE550058CC47;
+			productRefGroup = FAF31BEA1720CE550058CC47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF31BE81720CE550058CC47 /* Shareboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF31BE71720CE550058CC47 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF31BF71720CE550058CC47 /* InfoPlist.strings in Resources */,
+				FAF31BFF1720CE550058CC47 /* Default.png in Resources */,
+				FAF31C011720CE550058CC47 /* Default@2x.png in Resources */,
+				FAF31C031720CE550058CC47 /* Default-568h@2x.png in Resources */,
+				FAF31C091720CE550058CC47 /* SBDMainViewController_iPhone.xib in Resources */,
+				FAF31C0C1720CE550058CC47 /* SBDMainViewController_iPad.xib in Resources */,
+				FAF31C131720D3B10058CC47 /* SBDCameraView_iPad.xib in Resources */,
+				FAF31C171720FAA80058CC47 /* SBDCropView_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF31BE51720CE550058CC47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF31BF91720CE550058CC47 /* main.m in Sources */,
+				FAF31BFD1720CE550058CC47 /* SBDAppDelegate.m in Sources */,
+				FAF31C061720CE550058CC47 /* SBDMainViewController.m in Sources */,
+				2DBA15361DD49DB8D7F0FB9C /* SBDCameraViewController.m in Sources */,
+				2DBA1D827D3484CF7B5D48BD /* SBDCropViewController.m in Sources */,
+				2DBA17442738EC2B8DF7CD9B /* HFImageEditorFrameView.m in Sources */,
+				2DBA187D52DA2A81CA6A87A7 /* HFImageEditorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF31BF51720CE550058CC47 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF31BF61720CE550058CC47 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAF31C071720CE550058CC47 /* SBDMainViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF31C081720CE550058CC47 /* SBDMainViewController_iPhone.xib */,
+			);
+			name = SBDMainViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FAF31C0A1720CE550058CC47 /* SBDMainViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF31C0B1720CE550058CC47 /* SBDMainViewController_iPad.xib */,
+			);
+			name = SBDMainViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF31C0D1720CE550058CC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF31C0E1720CE550058CC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF31C101720CE550058CC47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shareboard/Shareboard-Prefix.pch";
+				INFOPLIST_FILE = "Shareboard/Shareboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAF31C111720CE550058CC47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shareboard/Shareboard-Prefix.pch";
+				INFOPLIST_FILE = "Shareboard/Shareboard-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF31BE41720CE550058CC47 /* Build configuration list for PBXProject "Shareboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF31C0D1720CE550058CC47 /* Debug */,
+				FAF31C0E1720CE550058CC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF31C0F1720CE550058CC47 /* Build configuration list for PBXNativeTarget "Shareboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF31C101720CE550058CC47 /* Debug */,
+				FAF31C111720CE550058CC47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF31BE11720CE550058CC47 /* Project object */;
+}
