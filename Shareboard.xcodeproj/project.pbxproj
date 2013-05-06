@@ -13,6 +13,12 @@
 		2DBA187D52DA2A81CA6A87A7 /* HFImageEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1B32B69575E766F47427 /* HFImageEditorViewController.m */; };
 		2DBA1962921ACE7483865EB5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DBA15E17A0C84B89BCF4C74 /* AVFoundation.framework */; };
 		2DBA1D827D3484CF7B5D48BD /* SBDCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA10F31A80EBC7413C75F5 /* SBDCropViewController.m */; };
+		2DBA1DF56F92514B31205F99 /* SBDGoogleDriveBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DBA1B59FA8F223CDE58B328 /* SBDGoogleDriveBroker.m */; };
+		FA21E0FB1728CB53002FF74B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21E0F91728CB53002FF74B /* Security.framework */; };
+		FA21E0FC1728CB53002FF74B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21E0FA1728CB53002FF74B /* SystemConfiguration.framework */; };
+		FA21E0FF1728CBFF002FF74B /* GTMOAuth2ViewTouch.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA21E0FE1728CBFF002FF74B /* GTMOAuth2ViewTouch.xib */; };
+		FA21E1021728CCC0002FF74B /* GTLDrive_Sources.m in Sources */ = {isa = PBXBuildFile; fileRef = FA21E1011728CCC0002FF74B /* GTLDrive_Sources.m */; };
+		FA21E10817377040002FF74B /* libGTLTouchStaticLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA21E10717377040002FF74B /* libGTLTouchStaticLib.a */; };
 		FA86DC8F17211B6600E4E3AF /* SBDCameraView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA86DC8E17211B6600E4E3AF /* SBDCameraView_iPhone.xib */; };
 		FAF31BED1720CE550058CC47 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF31BEC1720CE550058CC47 /* UIKit.framework */; };
 		FAF31BEF1720CE550058CC47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF31BEE1720CE550058CC47 /* Foundation.framework */; };
@@ -30,8 +36,41 @@
 		FAF31C171720FAA80058CC47 /* SBDCropView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF31C161720FAA80058CC47 /* SBDCropView_iPad.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2DBA1097D0FE546005C43C44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBA1447BAF5BC44F467F786 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DBA1E44C83F8D94B50EF06B;
+			remoteInfo = GTLUnitTests;
+		};
+		2DBA11701E76549272EF6023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBA1447BAF5BC44F467F786 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DBA17F55E4D46E859B7DB31;
+			remoteInfo = DevelopmentTestTool;
+		};
+		2DBA12235433FDA1E51F50F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBA1447BAF5BC44F467F786 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DBA123E6A47D0A0DAE04646;
+			remoteInfo = GTLTouchStaticLib;
+		};
+		2DBA1ED6528FDAC1DF3F5E71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DBA1447BAF5BC44F467F786 /* GTL.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DBA11D041895C5CFCC39DFA;
+			remoteInfo = GTLFramework;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2DBA10F31A80EBC7413C75F5 /* SBDCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDCropViewController.m; sourceTree = "<group>"; };
+		2DBA1354E602191408B9A5F9 /* SBDGoogleDriveBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDGoogleDriveBroker.h; sourceTree = "<group>"; };
+		2DBA1447BAF5BC44F467F786 /* GTL.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GTL.xcodeproj; path = gtl/GTL.xcodeproj; sourceTree = "<group>"; };
 		2DBA1576FA3B8A432599CBB3 /* SBDCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDCameraViewController.m; sourceTree = "<group>"; };
 		2DBA15E17A0C84B89BCF4C74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2DBA17BC14FAF4FEE2046FCB /* HFImageEditorViewController+SubclassingHooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HFImageEditorViewController+SubclassingHooks.h"; sourceTree = "<group>"; };
@@ -39,9 +78,16 @@
 		2DBA1958329D9817A880784D /* HFImageEditorFrameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFImageEditorFrameView.m; sourceTree = "<group>"; };
 		2DBA1B32B69575E766F47427 /* HFImageEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFImageEditorViewController.m; sourceTree = "<group>"; };
 		2DBA1B3686129380CFC00332 /* HFImageEditor_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HFImageEditor_iPhone.xib; sourceTree = "<group>"; };
+		2DBA1B59FA8F223CDE58B328 /* SBDGoogleDriveBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBDGoogleDriveBroker.m; sourceTree = "<group>"; };
 		2DBA1CD36BD3966E0655E5B1 /* SBDCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDCameraViewController.h; sourceTree = "<group>"; };
 		2DBA1DD3468048BE91E8A5CD /* HFImageEditorFrameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFImageEditorFrameView.h; sourceTree = "<group>"; };
 		2DBA1EF4A82E82FF68984712 /* SBDCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBDCropViewController.h; sourceTree = "<group>"; };
+		FA21E0F91728CB53002FF74B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FA21E0FA1728CB53002FF74B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FA21E0FE1728CBFF002FF74B /* GTMOAuth2ViewTouch.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GTMOAuth2ViewTouch.xib; path = ../gtl/OAuth2/Touch/GTMOAuth2ViewTouch.xib; sourceTree = "<group>"; };
+		FA21E1001728CCB5002FF74B /* GTLDrive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLDrive.h; sourceTree = "<group>"; };
+		FA21E1011728CCC0002FF74B /* GTLDrive_Sources.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTLDrive_Sources.m; sourceTree = "<group>"; };
+		FA21E10717377040002FF74B /* libGTLTouchStaticLib.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libGTLTouchStaticLib.a; path = "gtl/build/Release-iphoneos/libGTLTouchStaticLib.a"; sourceTree = "<group>"; };
 		FA86DC8E17211B6600E4E3AF /* SBDCameraView_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBDCameraView_iPhone.xib; sourceTree = "<group>"; };
 		FAF31BE91720CE550058CC47 /* Shareboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shareboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAF31BEC1720CE550058CC47 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -69,6 +115,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA21E0FB1728CB53002FF74B /* Security.framework in Frameworks */,
+				FA21E0FC1728CB53002FF74B /* SystemConfiguration.framework in Frameworks */,
+				FA21E10817377040002FF74B /* libGTLTouchStaticLib.a in Frameworks */,
 				FAF31BED1720CE550058CC47 /* UIKit.framework in Frameworks */,
 				FAF31BEF1720CE550058CC47 /* Foundation.framework in Frameworks */,
 				FAF31BF11720CE550058CC47 /* CoreGraphics.framework in Frameworks */,
@@ -92,12 +141,33 @@
 			path = ImageEditor;
 			sourceTree = "<group>";
 		};
+		2DBA191DEB92541B8CCA1D8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DBA1DC1AD6855FAB88F8BFF /* GTL.framework */,
+				2DBA1F9AA21E51BB01893D73 /* libGTLTouchStaticLib.a */,
+				2DBA1A601C3DFD853CA7C5D9 /* GTLUnitTests.octest */,
+				2DBA18F4200A6E3AD4DDB257 /* DevelopmentTestTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA21E0FD1728CBE7002FF74B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		FAF31BE01720CE550058CC47 = {
 			isa = PBXGroup;
 			children = (
+				FA21E10717377040002FF74B /* libGTLTouchStaticLib.a */,
 				FAF31BF21720CE550058CC47 /* Shareboard */,
 				FAF31BEB1720CE550058CC47 /* Frameworks */,
+				FA21E0FD1728CBE7002FF74B /* Supporting Files */,
 				FAF31BEA1720CE550058CC47 /* Products */,
+				2DBA1447BAF5BC44F467F786 /* GTL.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +182,8 @@
 		FAF31BEB1720CE550058CC47 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FA21E0F91728CB53002FF74B /* Security.framework */,
+				FA21E0FA1728CB53002FF74B /* SystemConfiguration.framework */,
 				FAF31BEC1720CE550058CC47 /* UIKit.framework */,
 				FAF31BEE1720CE550058CC47 /* Foundation.framework */,
 				FAF31BF01720CE550058CC47 /* CoreGraphics.framework */,
@@ -123,6 +195,8 @@
 		FAF31BF21720CE550058CC47 /* Shareboard */ = {
 			isa = PBXGroup;
 			children = (
+				FA21E1001728CCB5002FF74B /* GTLDrive.h */,
+				FA21E1011728CCC0002FF74B /* GTLDrive_Sources.m */,
 				FAF31BFB1720CE550058CC47 /* SBDAppDelegate.h */,
 				FAF31BFC1720CE550058CC47 /* SBDAppDelegate.m */,
 				FAF31C041720CE550058CC47 /* SBDMainViewController.h */,
@@ -132,12 +206,14 @@
 				FAF31C121720D3B10058CC47 /* SBDCameraView_iPad.xib */,
 				FA86DC8E17211B6600E4E3AF /* SBDCameraView_iPhone.xib */,
 				FAF31C161720FAA80058CC47 /* SBDCropView_iPad.xib */,
-				FAF31BF31720CE550058CC47 /* Supporting Files */,
 				2DBA1576FA3B8A432599CBB3 /* SBDCameraViewController.m */,
 				2DBA1CD36BD3966E0655E5B1 /* SBDCameraViewController.h */,
 				2DBA10F31A80EBC7413C75F5 /* SBDCropViewController.m */,
 				2DBA1EF4A82E82FF68984712 /* SBDCropViewController.h */,
+				2DBA1B59FA8F223CDE58B328 /* SBDGoogleDriveBroker.m */,
+				2DBA1354E602191408B9A5F9 /* SBDGoogleDriveBroker.h */,
 				2DBA1019A8198A9DFBCC765A /* ImageEditor */,
+				FAF31BF31720CE550058CC47 /* Supporting Files */,
 			);
 			path = Shareboard;
 			sourceTree = "<group>";
@@ -145,6 +221,7 @@
 		FAF31BF31720CE550058CC47 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA21E0FE1728CBFF002FF74B /* GTMOAuth2ViewTouch.xib */,
 				FAF31BF41720CE550058CC47 /* Shareboard-Info.plist */,
 				FAF31BF51720CE550058CC47 /* InfoPlist.strings */,
 				FAF31BF81720CE550058CC47 /* main.m */,
@@ -196,12 +273,49 @@
 			mainGroup = FAF31BE01720CE550058CC47;
 			productRefGroup = FAF31BEA1720CE550058CC47 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2DBA191DEB92541B8CCA1D8D /* Products */;
+					ProjectRef = 2DBA1447BAF5BC44F467F786 /* GTL.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FAF31BE81720CE550058CC47 /* Shareboard */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2DBA18F4200A6E3AD4DDB257 /* DevelopmentTestTool */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = DevelopmentTestTool;
+			remoteRef = 2DBA11701E76549272EF6023 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DBA1A601C3DFD853CA7C5D9 /* GTLUnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = GTLUnitTests.octest;
+			remoteRef = 2DBA1097D0FE546005C43C44 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DBA1DC1AD6855FAB88F8BFF /* GTL.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = GTL.framework;
+			remoteRef = 2DBA1ED6528FDAC1DF3F5E71 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DBA1F9AA21E51BB01893D73 /* libGTLTouchStaticLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libGTLTouchStaticLib.a;
+			remoteRef = 2DBA12235433FDA1E51F50F9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FAF31BE71720CE550058CC47 /* Resources */ = {
@@ -218,6 +332,7 @@
 				FAF31C171720FAA80058CC47 /* SBDCropView_iPad.xib in Resources */,
 				2DBA16727C61E57EC9EF7802 /* HFImageEditor_iPhone.xib in Resources */,
 				FA86DC8F17211B6600E4E3AF /* SBDCameraView_iPhone.xib in Resources */,
+				FA21E0FF1728CBFF002FF74B /* GTMOAuth2ViewTouch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +350,8 @@
 				2DBA1D827D3484CF7B5D48BD /* SBDCropViewController.m in Sources */,
 				2DBA17442738EC2B8DF7CD9B /* HFImageEditorFrameView.m in Sources */,
 				2DBA187D52DA2A81CA6A87A7 /* HFImageEditorViewController.m in Sources */,
+				2DBA1DF56F92514B31205F99 /* SBDGoogleDriveBroker.m in Sources */,
+				FA21E1021728CCC0002FF74B /* GTLDrive_Sources.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,8 +450,13 @@
 				GCC_PREFIX_HEADER = "Shareboard/Shareboard-Prefix.pch";
 				INFOPLIST_FILE = "Shareboard/Shareboard-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "gtl/** \"${PROJECT_DIR}/gtl\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -346,8 +468,13 @@
 				GCC_PREFIX_HEADER = "Shareboard/Shareboard-Prefix.pch";
 				INFOPLIST_FILE = "Shareboard/Shareboard-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "gtl/** \"${PROJECT_DIR}/gtl\"/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

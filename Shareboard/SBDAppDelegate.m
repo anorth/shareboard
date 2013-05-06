@@ -24,9 +24,10 @@
   } else {
       self.viewController = [[SBDMainViewController alloc] initWithNibName:@"SBDMainViewController_iPad" bundle:nil];
   }
+
   self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
-    return YES;
+  [self.window makeKeyAndVisible];
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
